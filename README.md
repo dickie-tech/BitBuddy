@@ -1,0 +1,2 @@
+# BitBuddy
+A friendly chatbot
