@@ -26,7 +26,7 @@ app.post('/api/chat', async (req, res) => {
   }
 });
 
-// Serve static frontend files (if any)
+
 app.use(express.static('public'));
 
 app.listen(PORT, () => {

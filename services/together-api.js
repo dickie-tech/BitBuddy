@@ -20,7 +20,7 @@ async function getTogetherResponse(userMessage) {
         { role: 'system', content: 'You are a helpful assistant.' },
         { role: 'user', content: `Please be super brief and accurate as you reply to this: ${userMessage }` }
       ],
-      stream: false // We use non-streamed for simplicity
+      stream: false 
     });
 
     const reply = response.choices?.[0]?.message?.content;
